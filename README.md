@@ -2,7 +2,7 @@
 Downloads video content from HTTP server, given a user-supplied raw URL, and stores the resource in a user-supplied filepath on the local disk.
 
 ### Usage
-Download `Video.java` and `DownloadSubfile.java`. Note: when prompted to enter the number of subfiles to download in parallel, optimal range is between 10 and 25.
+Download `Video.java` and `DownloadSubfile.java`. Note: when prompted to enter the number of subfiles to download in parallel, optimal range is between 10 and 25. Also, make sure the download destination folder is different from the folder in which the Java source code for the program is stored.
 
 Example run:
 ```
@@ -11,7 +11,7 @@ Example run:
 >> java Video
 **HttpVideoDownloader**
 Enter URL: <raw-URL>
-Enter directory filepath for download destination: <my-dir>
+Enter directory filepath for download destination: <empty-dir>
 Cleaning up directory...
 
 Checking server...
