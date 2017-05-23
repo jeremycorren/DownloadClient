@@ -43,7 +43,7 @@ public class Video {
 	 * Tester
 	 */
 	public static void main(String[] args) {
-		System.out.println("**HttpVideoDownloader**\n");
+		System.out.println("**DownloadClient**\n");
 		
 		// retry in case of download error
 		do {
