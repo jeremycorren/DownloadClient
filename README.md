@@ -1,4 +1,4 @@
-# DownloadManager
+## DownloadClient
 Downloads video content from HTTP server, given a user-supplied raw URL, and stores the resource in a user-supplied filepath on the local disk.
 
 ### Usage
@@ -9,7 +9,7 @@ Example run:
 >>
 >> javac Video.java
 >> java Video
-**HttpVideoDownloader**
+**DownloadClient**
 Enter URL: <raw-URL>
 Enter directory filepath for download destination: <empty-dir>
 Cleaning up directory...
