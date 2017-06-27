@@ -1,5 +1,5 @@
 ## DownloadClient
-Downloads video content from HTTP server, given a user-supplied raw URL, and stores the resource in a user-supplied filepath on the local disk.
+Concurrently downloads video resource from HTTP server, given a user-supplied raw URL, and stores in a user-supplied filepath on disk.
 
 ### Usage
 Download `Video.java` and `DownloadSubfile.java`. Note: when prompted to enter the number of subfiles to download in parallel, optimal range is between 10 and 25. Also, make sure the download destination folder is different from the folder in which the Java source code for the program is stored.
